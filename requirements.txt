@@ -1,0 +1,8 @@
+# Project Dependencies
+# Add / pin versions as you install packages, e.g. pandas==2.2.2
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+jupyter

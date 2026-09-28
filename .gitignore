@@ -1,0 +1,24 @@
+# Data files (Crucial to prevent 1.6GB Kaggle file from blocking pushes)
+# Ignore data files
+# data/raw/*.csv
+# data/raw/*.gz
+# data/raw/*.zip
+# data/processed/*.parquet
+# data/external/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python caching & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+
+# OS generated files
+.DS_Store
+Thumbs.db

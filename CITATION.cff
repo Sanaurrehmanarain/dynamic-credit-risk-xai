@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: "An Explainable and Fair Machine-Learning Framework for Credit-Risk Assessment and Dynamic Expected-Loss"
+message: "If you use this project in your research, publication, or educational work, please cite it using the metadata below."
+type: software
+
+authors:
+  - family-names: "Arain"
+    given-names: "Sana Ur Rehman"
+    affiliation: "Data Scientist"
+
+repository-code: "https://github.com/sanaurrehmanarain/dynamic-credit-risk-xai"
+
+license: "MIT"
+
+abstract: >
+  A data science project created for educational, portfolio, and skill-demonstration purposes.
+
+keywords:
+  - data science
+  - machine learning
+  - python
+  - portfolio
+  - financial engineering
+
+date-released: 2026-09-27
+
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Arain"
+      given-names: "Sana Ur Rehman"
+  title: "An Explainable and Fair Machine-Learning Framework for Credit-Risk Assessment and Dynamic Expected-Loss"
+  year: 2026
+  url: "https://github.com/sanaurrehmanarain/dynamic-credit-risk-xai"
