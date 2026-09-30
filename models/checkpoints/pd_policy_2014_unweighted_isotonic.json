@@ -1,0 +1,11 @@
+{
+  "model_file": "calibrated_lightgbm_unweighted_isotonic.joblib",
+  "preprocessor_file": "baseline_preprocessor_2011_2013.joblib",
+  "selection_period": "2014",
+  "evaluation_period": "2015",
+  "target_el_rate": 0.05,
+  "lgd_assumption": 0.5005411721323518,
+  "pd_threshold": 0.1696113074204947,
+  "approved_development_loans": 110226,
+  "projected_development_el_rate": 0.04800219402181978
+}
