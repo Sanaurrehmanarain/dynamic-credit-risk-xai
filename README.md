@@ -1,4 +1,4 @@
-# An Explainable and Fair Machine-Learning Framework for Credit-Risk Assessment and Dynamic Expected-Loss Optimization
+# An Dynamic Expected-Loss Optimization in Credit Risk: An Explainable and Fair Machine-Learning Framework
 
 ## Project Overview
 This repository contains the methodology and codebase for an end-to-end credit risk classification and dynamic Expected Loss (EL) optimization pipeline. It addresses the accuracy-interpretability trade-off in financial machine learning by combining gradient-boosted decision trees (LightGBM) with Shapley Additive Explanations (SHAP), rigorous Out-of-Time (OOT) validation, and cost-sensitive probability calibration.
@@ -22,6 +22,10 @@ To reproduce the environment:
 * **Leakage Prevention:** Removed all post-origination repayment artifacts from the Probability of Default (PD) feature space.
 * **Out-of-Time (OOT) Validation:** Designed a chronological split to evaluate macroeconomic drift (Train: 2011–2013, Validation: 2014, Held-out Test: 2015).
 * **Preprocessing:** Fitted baseline and lender-pricing median imputers, standard scalers, and one-hot encoders exclusively on the training partition to prevent data leakage.
+
+## Dataset 
+
+**Lending Club loan data**, available on [Kaggle](https://www.kaggle.com/datasets/wordsforthewise/lending-club) (uploaded by *wordsforthewise*).
 
 ## Tech Stack
 * **Language:** Python 3.13+

@@ -1,34 +1,69 @@
 cff-version: 1.2.0
-title: "An Explainable and Fair Machine-Learning Framework for Credit-Risk Assessment and Dynamic Expected-Loss"
 message: "If you use this project in your research, publication, or educational work, please cite it using the metadata below."
 type: software
+
+title: "Dynamic Expected-Loss Optimization in Credit Risk: An Explainable & Fair Machine-Learning Framework"
+version: "1.0"
+date-released: 2026-09-27
 
 authors:
   - family-names: "Arain"
     given-names: "Sana Ur Rehman"
-    affiliation: "Data Scientist"
+    email: "sana.arain.work@gmail.com"
+    alias: "sanaurrehmanarain"
 
 repository-code: "https://github.com/sanaurrehmanarain/dynamic-credit-risk-xai"
-
-license: "MIT"
+url: "https://github.com/sanaurrehmanarain/dynamic-credit-risk-xai"
+license: MIT
 
 abstract: >
-  A data science project created for educational, portfolio, and skill-demonstration purposes.
+  An explainable and fair machine-learning framework for dynamic
+  expected-loss optimization in credit risk. Built on the public Lending Club
+  loan dataset, the project combines predictive modeling with
+  interpretability and fairness analysis to support transparent, responsible
+  credit decision-making. It extends the author's earlier comparative study of
+  traditional and explainable AI approaches to credit risk modeling by adding
+  dynamic expected-loss optimization and fairness evaluation. The project
+  demonstrates end-to-end data science and financial engineering skills for
+  educational and portfolio purposes.
 
 keywords:
-  - data science
+  - credit risk
+  - expected loss
   - machine learning
-  - python
-  - portfolio
+  - explainable AI
+  - XAI
+  - fairness
   - financial engineering
+  - Lending Club
+  - data science
+  - python
 
-date-released: 2026-09-27
+references:
+  - type: dataset
+    title: "All Lending Club loan data"
+    authors:
+      - name: "Lending Club"
+    database: "Kaggle"
+    url: "https://www.kaggle.com/datasets/wordsforthewise/lending-club"
+    notes: "Dataset used for model training and evaluation. Hosted on Kaggle by user wordsforthewise."
+
+  - type: software
+    title: "Machine Learning for Credit Risk Modeling: A Comparative Study of Traditional & Explainable AI Approaches"
+    authors:
+      - family-names: "Arain"
+        given-names: "Sana Ur Rehman"
+    version: "1.0"
+    year: 2026
+    url: "https://github.com/sanaurrehmanarain/credit-risk-xai-framework"
+    notes: "Preceding project on which this work builds. It provides the foundation (comparative evaluation of traditional and explainable models) that this framework extends with dynamic expected-loss optimization and fairness analysis."
 
 preferred-citation:
   type: software
   authors:
     - family-names: "Arain"
       given-names: "Sana Ur Rehman"
-  title: "An Explainable and Fair Machine-Learning Framework for Credit-Risk Assessment and Dynamic Expected-Loss"
+  title: "Dynamic Expected-Loss Optimization in Credit Risk: An Explainable & Fair Machine-Learning Framework"
+  version: "1.0"
   year: 2026
   url: "https://github.com/sanaurrehmanarain/dynamic-credit-risk-xai"
