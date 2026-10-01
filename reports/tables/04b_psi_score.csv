@@ -1,0 +1,5 @@
+score,reference,comparison,psi,status
+LightGBM raw,2014 validation,2015 test,0.0012707819679961235,stable
+LightGBM isotonic,2014 validation,2015 test,0.0012057552430937235,stable
+LightGBM raw,2011-2013 train (in-sample),2015 test,0.002940115993974642,stable
+Logistic regression,2014 validation,2015 test,0.0019843841893781365,stable

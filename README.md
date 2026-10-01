@@ -1,5 +1,19 @@
 # An Dynamic Expected-Loss Optimization in Credit Risk: An Explainable and Fair Machine-Learning Framework
 
+## Project status
+
+The data preparation, split design and feature pipeline are finished. Modelling diagnostics and the decision framework are the active work.
+
+| Stage | Notebooks | Status |
+|---|---|---|
+| Data preparation, EDA, feature engineering | 01, 02, 03 | Finished. Only minor housekeeping remains. |
+| Model selection and calibration | 04 | Finished. Extended by 04b and 04c, which add diagnostics without modifying 04's saved artifacts. |
+| Supplementary diagnostics and data | 01b, 04b, 04c | New. Payment outcomes for net-return analysis (01b); discrimination, calibration and drift diagnostics (04b); sensitivity to feature-policy choices (04c). |
+| Expected-loss decision framework, explainability and fairness audit | 05, 06 | In progress. |
+
+Design choices that remain open to challenge are documented as limitations in Notebooks 01 to 04 and tested as sensitivity analyses in 04c, rather than changed in notebook 01.
+
+
 ## Project Overview
 This repository contains the methodology and codebase for an end-to-end credit risk classification and dynamic Expected Loss (EL) optimization pipeline. It addresses the accuracy-interpretability trade-off in financial machine learning by combining gradient-boosted decision trees (LightGBM) with Shapley Additive Explanations (SHAP), rigorous Out-of-Time (OOT) validation, and cost-sensitive probability calibration.
 

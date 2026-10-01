@@ -1,0 +1,22 @@
+feature,type,method,psi_train_vs_2014,psi_train_vs_2015,status_2015
+verification_status,categorical,category shares,0.11670000107125647,0.18045825478103147,moderate
+pub_rec,numeric,discrete values,0.08898902583189469,0.09244760730550425,stable
+addr_state,categorical,category shares,0.039593921341186424,0.08088356461593167,stable
+purpose,categorical,category shares,0.0606724803525427,0.07507123934282911,stable
+dti,numeric,quantile bins,0.020555403572863486,0.06375747046625885,stable
+inq_last_6mths,numeric,discrete values,0.008816733607265623,0.05428688845444236,stable
+revol_util,numeric,quantile bins,0.025104497945087793,0.04589374757575869,stable
+credit_history_months,numeric,quantile bins,0.0356080914484718,0.04457763198793784,stable
+fico_midpoint,numeric,quantile bins,0.057162722537243166,0.04305790772928706,stable
+collections_12_mths_ex_med,numeric,discrete values,0.02056922559367911,0.03474494419100179,stable
+emp_length,categorical,category shares,0.01568141191172967,0.03198725362152961,stable
+open_acc,numeric,quantile bins,0.018153384625474354,0.031331429372564945,stable
+pub_rec_bankruptcies,numeric,discrete values,0.03585633373958971,0.031309742064385755,stable
+delinq_2yrs,numeric,discrete values,0.026686359479066488,0.027295479923835665,stable
+loan_amnt,numeric,quantile bins,0.011703254002586143,0.020542211198144204,stable
+revol_bal_log,numeric,quantile bins,0.014009431116555197,0.016701448881796525,stable
+home_ownership,categorical,category shares,0.006059940831972602,0.011472345793658904,stable
+annual_inc_log,numeric,quantile bins,0.004628307028814353,0.010256324677745829,stable
+total_acc,numeric,quantile bins,0.018274133339748738,0.00681645279722399,stable
+application_type,categorical,category shares,0.0,0.005692148705311554,stable
+acc_now_delinq,numeric,discrete values,0.003211445549651526,0.0037862774857533293,stable
