@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this project in your research, publication, or educational work, please cite it using the metadata below."
 type: software
 
-title: "Dynamic Expected-Loss Optimization in Credit Risk: An Explainable & Fair Machine-Learning Framework"
+title: "Dynamic Expected-Loss Optimization in Credit Risk: An Explainable & Fair Machine-Learning Framework - Part II"
 version: "1.0"
 date-released: 2026-09-27
 
@@ -63,7 +63,7 @@ preferred-citation:
   authors:
     - family-names: "Arain"
       given-names: "Sana Ur Rehman"
-  title: "Dynamic Expected-Loss Optimization in Credit Risk: An Explainable & Fair Machine-Learning Framework"
+  title: "Dynamic Expected-Loss Optimization in Credit Risk: An Explainable & Fair Machine-Learning Framework - Part II"
   version: "1.0"
   year: 2026
   url: "https://github.com/sanaurrehmanarain/dynamic-credit-risk-xai"
